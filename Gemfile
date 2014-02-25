@@ -1,13 +1,13 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.2.14'
-
+gem 'rake', '~>10.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 # for Heroku deployment - as described in Ap. A of ELLS book
 group :development, :test do
-  gem 'pg'
+  gem 'sqlite3'
   gem 'debugger'
 end
 
